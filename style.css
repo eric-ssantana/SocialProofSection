@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("./images/bg-pattern-bottom-desktop.svg");
+    background-color: hsl(300, 24%, 96%);
+
+}
+.parteDeCima{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tituloPrincipal{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin:40px 50px  50px 50px;
+    width: 30vw;
+    
+}
+
+
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 38px;
+    font-weight: bolder;
+    color:  hsl(300, 43%, 22%);
+    margin: 25px;
+    margin-left: 0;
+}
+.subtitulo{
+    font-size: 15px;
+    color:  hsl(303, 10%, 53%);
+}
+.avaliacoes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ava{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: hsl(305, 17%, 87%);
+    color:hsl(300, 43%, 22%);
+    font-weight: bolder;
+    border-radius: 5px;
+    margin:15px;
+    padding: 10px;
+}
+.aval{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: hsl(305, 17%, 87%);
+    color:hsl(300, 43%, 22%);
+    font-weight: bolder;
+    border-radius: 5px;
+    margin:15px;
+    padding: 10px;
+}
+.avali{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: hsl(305, 17%, 87%);
+    color:hsl(300, 43%, 22%);
+    font-weight: bolder;
+    border-radius: 5px;
+    margin:15px;
+    padding: 10px;
+}
+.comentarios{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+
+
+.cartao{
+    display: flex;
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(305, 17%, 87%);
+    font-weight: bolder;
+    border-radius: 5px;
+    margin:15px;
+    padding: 10px;
+    max-width:350px;
+    max-height: 200px;
+}
+.comenColto p{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.comenColto img{
+    display: flex;
+   flex-wrap: nowrap;
+    border-radius: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+.comenColto p{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+
+}
+.comenColto a{
+    display: flex;
+    flex-direction: row;
+    color:hsl(303, 10%, 53%) ;
+}
+.cartao .subComentarioColto{
+    display: flex;
+    flex-direction: column;
+    margin-top:  80px;
+}
+
+
+.comenAnne img{
+    border-radius: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+.comenAnne p{
+    display: flex;
+    flex-direction: row;
+
+}
+.comenAnne a{
+    display: flex;
+    flex-direction: row;
+    color:hsl(303, 10%, 53%) ;
+}
+.cartao .subComentarioAnne{
+    display: flex;
+    flex-direction: column;
+    margin-top:  80px;
+}
+
+
+
+.comenIrene img{
+    border-radius: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+.comenIrene p{
+    display: flex;
+    flex-direction: row;
+
+}
+.comenIrene a{
+    display: flex;
+    flex-direction: row;
+    color:hsl(303, 10%, 53%) ;
+}
+.cartao .subComentarioIrene{
+    display: flex;
+    flex-direction: column;
+    margin-top:  80px;
+}
+
+
+
+
+.attribution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
